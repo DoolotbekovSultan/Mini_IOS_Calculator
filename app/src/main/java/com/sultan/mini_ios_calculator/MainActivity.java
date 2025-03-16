@@ -378,6 +378,8 @@ public class MainActivity extends AppCompatActivity {
             result.setTextSize(textSizes[numberOfDigits - 7]);
         } else if (numberOfDigits <= 6) {
             result.setTextSize(85);
+        } else {
+            result.setTextSize(40);
         }
 
     }
